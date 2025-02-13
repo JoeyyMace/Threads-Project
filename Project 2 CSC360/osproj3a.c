@@ -44,8 +44,8 @@ int main(int argc, char *argv[])
   num_threads = atoi(argv[2]);
   printf( "Enter number of sample points: " );
   scanf( "%d", &sample_points );
-  /*printf( "Enter number of threads: " );
-  scanf( "%d", &num_threads );*/
+  printf( "Enter number of threads: " );
+  scanf( "%d", &num_threads );
   
   
 
